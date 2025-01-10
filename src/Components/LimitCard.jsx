@@ -25,7 +25,7 @@ const LimitCard = () => {
   };
 
   return (
-    <div className="mx-auto container px-6 py-10">
+    <div className="mx-auto container px-3">
       <h1 className="text-3xl font-bold text-sky-400 my-8">
         Volunteer Needs Now
       </h1>

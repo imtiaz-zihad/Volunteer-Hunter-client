@@ -20,7 +20,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className="navbar bg-base-100 shadow-sm container px-10 mx-auto">
+    <div className="navbar sticky top-0 z-50 bg-gray-400 shadow-sm container px-10 mx-auto">
       <div className="flex-1">
         <Link to="/" className="flex gap-2 items-center">
           <img className="w-auto h-14" src={logo} alt="Logo" />
@@ -60,7 +60,7 @@ const NavBar = () => {
       </div>
 
       {/* Desktop Menu */}
-      <div className={`flex-none hidden sm:flex`}>
+      <div className={`flex-none hidden text-white sm:flex`}>
         <ul className="menu menu-horizontal px-1">
           <li>
             <Link to="/">Home</Link>
@@ -156,7 +156,7 @@ const NavBar = () => {
       {/* Mobile Dropdown Menu */}
       {isMenuOpen && (
         <div className="sm:hidden">
-          <ul className="menu menu-vertical bg-base-100 shadow-lg rounded-box px-4 py-2">
+          <ul className="menu menu-vertical bg-gray-100 shadow-lg rounded-box px-4 py-2">
             <li>
               <Link to="/">Home</Link>
             </li>
