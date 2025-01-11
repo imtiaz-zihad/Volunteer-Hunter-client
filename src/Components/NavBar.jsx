@@ -77,7 +77,7 @@ const NavBar = () => {
         </ul>
 
         {user && (
-          <div className="dropdown dropdown-end z-50">
+          <div className="dropdown dropdown-end z-50 text-black">
             <div
               tabIndex={0}
               role="button"
@@ -100,7 +100,7 @@ const NavBar = () => {
                   Add Volunteer need Post
                 </Link>
               </li>
-              <li>
+              <li >
                 <Link to="/my-posted-volunteer">Manage My Posts</Link>
               </li>
 

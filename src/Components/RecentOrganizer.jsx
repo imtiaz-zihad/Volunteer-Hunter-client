@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const RecentOrganizer = () => {
     return (
         <div className='container mx-auto p-4 '>
-          <h1 className="text-2xl text-sky-500 mt-10 font-bold px-5 lg:px-0">Top Volunteer Organization In Bangladesh</h1>
+          <h1 className="text-3xl font-bold text-sky-400 mt-10  px-5 lg:px-0">Top Volunteer Organization In Bangladesh</h1>
           <Marquee gradient='true' direction="right" className="mt-10  flex ">
            <Link   >
            <img className="h-28 w-28 mx-28" src="https://www.bdclean.org/wp-content/uploads/2019/05/bd-clean.png" alt="" />

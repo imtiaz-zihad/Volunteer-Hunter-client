@@ -3,6 +3,8 @@ import Banner from "../Components/Banner";
 import LimitCard from "../Components/LimitCard";
 import WhyVolunteer from "../Components/WhyVolunteer";
 import RecentOrganizer from "../Components/RecentOrganizer";
+import UpcomingEvent from "../Components/UpcomingEvent";
+import VolunteerStory from "../Components/VolunteerStory";
 
 const Home = () => {
   return (
@@ -13,6 +15,8 @@ const Home = () => {
       <Banner />
       <LimitCard />
       <RecentOrganizer />
+      <UpcomingEvent />
+      <VolunteerStory />
       <WhyVolunteer />
     </div>
   );
