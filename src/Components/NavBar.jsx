@@ -1,5 +1,6 @@
 import { useContext, useState } from "react";
-import logo from "../assets/Logo.png";
+// import logo from "../assets/Logo.png";
+import logo from "../assets/logopng.png";
 import { AuthContext } from "../AuthProvider/AuthContext";
 import { Link } from "react-router-dom";
 
@@ -20,10 +21,10 @@ const NavBar = () => {
   };
 
   return (
-    <div className="navbar sticky top-0 z-50 bg-gray-400 shadow-sm container px-10 mx-auto">
+    <div className="navbar sticky top-0 z-50 bg-gray-400 shadow-sm  px-10 ">
       <div className="flex-1">
         <Link to="/" className="flex gap-2 items-center">
-          <img className="w-auto h-14" src={logo} alt="Logo" />
+          <img className="w-auto h-16" src={logo} alt="Logo" />
         </Link>
       </div>
 
