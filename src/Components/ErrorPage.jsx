@@ -38,7 +38,7 @@ const ErrorPage = () => {
                 />
               </svg>
 
-              <span>Go back</span>
+              <span>Go Back</span>
             </button>
            </Link>
 
